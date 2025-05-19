@@ -1,0 +1,6 @@
+var nota1 = inteiro(leia("Digite a primeira nota: "))
+var nota2 = inteiro(leia("Digite a segunda nota: "))
+var nota3 = inteiro(leia("Digite a terceira nota: "))
+
+var media_final = (nota1 + nota2 + nota3) / 3
+escreva("A média final é: " + media_final)
