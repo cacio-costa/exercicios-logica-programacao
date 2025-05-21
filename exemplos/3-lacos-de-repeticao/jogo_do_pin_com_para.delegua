@@ -1,0 +1,15 @@
+/*
+ * JOGO DO PIN: VERSÃO "PARA" (nas linguagens é o "for")
+ * Escrever de 1 até 40, substituindo os múltiplos de 4 pela string "PIN"
+ */
+escreva("JOGO DO PIN: VERSÃO 'PARA' (nas linguagens é o 'for')")
+
+para var numero = 1; numero <= 40; numero = numero + 1 {
+    var ehMultiploDe4 = numero % 4 == 0
+
+    se ehMultiploDe4 {
+        escreva("PIN")
+    } senao {
+        escreva(numero)
+    }
+}

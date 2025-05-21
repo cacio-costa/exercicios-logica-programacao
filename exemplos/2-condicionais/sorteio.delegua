@@ -1,0 +1,17 @@
+var bolaSorteada = 25
+
+se bolaSorteada < 10 { 
+    escreva("Você ganhou o prêmio!")
+} senao {
+    escreva("Não foi desta vez! Tenha mais sorte na próxima...")
+}
+
+/*
+ * OPERADORES DE COMPARAÇÃO
+ * >= – Maior ou igual que;
+ * <= – Menor ou igual que;
+ * > – Maior que;
+ * < – Menor que;
+ * == – Igual a;
+ * != – Diferente de;
+ */

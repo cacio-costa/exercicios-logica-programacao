@@ -1,0 +1,8 @@
+var idade = 17
+var ehAmigaDoDono = verdadeiro // true ou false -> True ou False
+
+se idade >= 18 ou ehAmigaDoDono == verdadeiro {
+    escreva("Pode entrar...")
+} senao {
+    escreva("VAZA DAQUI!!!")
+}

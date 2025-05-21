@@ -1,0 +1,16 @@
+var idade = 17
+var possuiTicket = verdadeiro
+var ehMaiorDeIdade = idade >= 18
+
+se ehMaiorDeIdade e possuiTicket {
+    escreva("Está aqui sua dose de Pitu!")
+} senao se ehMaiorDeIdade == falso  {
+    escreva("Sai daqui, seu(sua) moleque(moleca)!")
+} senao {
+    escreva("Vá comprar seu ticket, estelionatário!")
+}
+
+/*
+Possui ticket = V -> V == verdadeiro = ? V
+Possui ticket = F -> F == verdadeiro = ? F
+*/

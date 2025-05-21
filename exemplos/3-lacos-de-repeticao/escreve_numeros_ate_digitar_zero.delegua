@@ -1,0 +1,7 @@
+var numero = leia("digite um número (digite 0 para sair): ")
+
+enquanto numero != "0" {
+    escreva(numero)
+
+    numero = leia("digite um número (digite 0 para sair): ")
+}

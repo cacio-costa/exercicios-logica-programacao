@@ -1,0 +1,21 @@
+/*
+ * JOGO DO PIN: VERSÃO "ENQUANTO" (nas linguagens é o "while")
+ * Escrever de 1 até 40, substituindo os múltiplos de 4 pela string "PIN"
+ */
+escreva("JOGO DO PIN: VERSÃO 'ENQUANTO' (nas linguagens é o 'while')")
+
+var numero = 1 // contador
+
+enquanto numero <= 40 {
+    var ehMultiploDe4 = numero % 4 == 0
+
+    se ehMultiploDe4 {
+        escreva("PIN")
+    } senao {
+        escreva(numero)
+    }
+    
+    numero = numero + 1
+    // numero += 1
+    // numero++
+}
